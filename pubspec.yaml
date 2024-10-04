@@ -1,0 +1,32 @@
+name: newapp
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  just_audio: ^0.9.40
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add assets section for sound files
+  assets:
+    - assets/sounds/note1.wav
+    - assets/sounds/note2.wav
+    - assets/sounds/note3.wav
+    - assets/sounds/note4.wav
+    - assets/sounds/note5.wav
+    - assets/sounds/note6.wav
+    - assets/sounds/note7.wav
